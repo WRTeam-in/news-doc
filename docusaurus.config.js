@@ -8,14 +8,14 @@ const config = {
   favicon: "images/favicon.png",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.com",
+  url: "https://wrteam-in.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: "/",
-
+  baseUrl: "/news-doc/",
+  trailingSlash: true, 
   // GitHub pages deployment config
-  organizationName: "your-org",
-  projectName: "news-app-docs",
-
+  organizationName: "WRTeam-in",
+  projectName: "news-doc",
+  deploymentBranch: "gh-pages",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
 
