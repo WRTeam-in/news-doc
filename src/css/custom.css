@@ -1,0 +1,135 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #d32f2f;
+  --ifm-color-primary-dark: #be2a2a;
+  --ifm-color-primary-darker: #b32727;
+  --ifm-color-primary-darkest: #942020;
+  --ifm-color-primary-light: #d84545;
+  --ifm-color-primary-lighter: #da5050;
+  --ifm-color-primary-lightest: #e17878;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-color-primary: #f44336;
+  --ifm-color-primary-dark: #f32c1e;
+  --ifm-color-primary-darker: #f22112;
+  --ifm-color-primary-darkest: #c91a0c;
+  --ifm-color-primary-light: #f65a4e;
+  --ifm-color-primary-lighter: #f6655a;
+  --ifm-color-primary-lightest: #f88c84;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Card styling for light mode */
+html[data-theme="light"] .card {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+}
+
+html[data-theme="light"] .card__header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+html[data-theme="light"] .card__footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Reset Docusaurus default details styling */
+.theme-doc-markdown details {
+  --ifm-alert-background-color: transparent !important;
+  --ifm-alert-border-width: 0 !important;
+  --ifm-alert-border-color: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Custom FAQ styles with higher specificity */
+html[data-theme="dark"] .theme-doc-markdown details {
+  margin-bottom: 1rem;
+  color: #1a202c; /* Dark color for light mode */
+  border: 2px solid #89c7fb26 !important;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+html .theme-doc-markdown details {
+  margin-bottom: 1rem;
+  color: #1a202c; /* Dark color for light mode */
+  border: 2px solid #00000075 !important;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+/* Dark mode override for text color */
+html[data-theme="dark"] .theme-doc-markdown details {
+  color: white;
+}
+
+html .theme-doc-markdown details summary {
+  color: #1a202c; /* Dark color for light mode */
+  cursor: pointer;
+  font-weight: 500;
+  list-style: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: none !important;
+}
+
+/* Dark mode override for summary text color */
+html[data-theme="dark"] .theme-doc-markdown details summary {
+  color: white;
+}
+
+/* Remove the default details marker (arrow) */
+html .theme-doc-markdown details summary::-webkit-details-marker {
+  display: none;
+}
+
+html[data-theme="dark"] .theme-doc-markdown details > summary::before {
+  border-left: 5px solid #89c7fb26;
+}
+
+html .theme-doc-markdown details > summary::before {
+  content: "";
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #00000075;
+  display: inline-block;
+  margin-top: 0.6rem;
+  margin-right: 0.5rem;
+  transition: transform 0.2s;
+}
+
+html .theme-doc-markdown details[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+html .theme-doc-markdown details summary:hover {
+  color: #e53935;
+}
+
+html[data-theme="dark"] .theme-doc-markdown details summary:hover {
+  color: #ff5252;
+}
+
+html .theme-doc-markdown details[open] summary {
+  border-bottom: 2px solid #00000075 !important;
+  margin-bottom: 0.5rem;
+}
+
+html[data-theme="dark"] .theme-doc-markdown details[open] summary {
+  border-bottom: 2px solid #89c7fb26 !important;
+  margin-bottom: 0.5rem;
+}
