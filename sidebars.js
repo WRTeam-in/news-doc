@@ -111,6 +111,7 @@ const sidebars = {
         "web/seo-deploy",
         "web/nextjsdeploy",
         "web/htaccess-file-code-forSeo",
+        "web/get-gemini-api-key",
       ],
     },
     "support",
