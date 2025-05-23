@@ -95,6 +95,7 @@ const sidebars = {
         "web/mobile-login",
         "web/rss-feed",
         "web/app-name",
+        "web/change-meta-info",
         "web/favicon",
         "web/set-logo-theme-color",
         "web/set-social-media",

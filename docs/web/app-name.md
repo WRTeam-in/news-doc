@@ -10,6 +10,6 @@ To change the application name for your Web application:
 
 2. Update the application name in the environment variables
 
-![Web Title](/images/web/webtitle.png)
+![Web Title](/images/web/web-name.png)
 
 The changes will be reflected throughout your web application.
