@@ -96,6 +96,7 @@ const sidebars = {
         "web/rss-feed",
         "web/app-name",
         "web/change-meta-info",
+        "web/add-gemini-api-key-in-web",
         "web/favicon",
         "web/set-logo-theme-color",
         "web/set-social-media",
