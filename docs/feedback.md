@@ -12,8 +12,8 @@ Dear valued customer, thank you very much for choosing our product. It's our ple
 
 You can also share your thoughts, ideas, and suggestions with us through:
 
-- Email: feedback@example.com
-- Feedback Form: [feedback.example.com](https://feedback.example.com)
+- Email: Support@wrteam.in
+- Feedback Form: [feedback](https://wrteam.in)
 
 ## Feature Requests
 

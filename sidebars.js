@@ -73,7 +73,7 @@ const sidebars = {
         "app/ads-interval",
         "app/limit",
         "app/api",
-	"add-gemini-api-key-in-app",
+	"app/add-gemini-api-key-in-app",
         "app/change-lang",
         "app/apk",
         "app/app-bundle",
@@ -81,7 +81,6 @@ const sidebars = {
         "app/playstore-datasafety",
         "app/debug",
         "app/ref",
-	"app/get-gemini-api-key",
       ],
     },
     {

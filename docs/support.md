@@ -18,5 +18,5 @@ Typically we reply to our customers for all questions and queries within 24 hour
 
 ## Support Channels
 
-- Email: support@example.com
-- Support Portal: [support.example.com](https://support.example.com)
+- Email: Support@wrteam.in
+- Support Portal: [WRTeam](https://wrteam.in)
