@@ -22,85 +22,28 @@ If your server is running Nginx, copy the following code and paste it into your 
 
 ```nginx
 # nginx configuration for News Web App
-location /breaking {
-  rewrite ^/breaking-news/([^/]+)$ /breaking-news/[slug].html break;
-}
-
-location /categories {
-  rewrite ^/categories-news/([^/]+)$ /categories-news/[slug].html break;
-}
-
-location /tag {
-  rewrite ^/tag/([^/]+)$ /tag/[slug].html break;
-}
-
-location /news {
-  rewrite ^/news/([^/]+)$ /news/[slug].html break;
-  rewrite ^/news-notification$ /news-notification.html break;
-}
-
-location /video {
-  rewrite ^/video-news-view/([^/]+)$ /video-news-view/[slug].html break;
-}
-
-location /view {
-  rewrite ^/view-all/([^/]+)$ /view-all/[slug].html break;
-}
-
-location /all {
-  rewrite ^/all-breaking-news$ /all-breaking-news.html break;
-  rewrite ^/all-categories$ /all-categories.html break;
-}
-
-location = /bookmark {
-  rewrite ^(.*)$ /bookmark.html break;
-}
-
-location /create {
-  rewrite ^/create-news$ /create-news.html break;
-}
-
-location /edit {
-  rewrite ^/edit-news$ /edit-news.html break;
-}
-
-location = /index {
-  rewrite ^(.*)$ /index.html break;
-}
-
-location /live {
-  rewrite ^/live-news$ /live-news.html break;
-}
-
-location = /loading {
-  rewrite ^(.*)$ /loading.html break;
-}
-
-location /manage {
-  rewrite ^/manage-news$ /manage-news.html break;
-}
-
-location /more {
-  rewrite ^/more-pages$ /more-pages.html break;
-}
-
-location /personal {
-  rewrite ^/personal-notification$ /personal-notification.html break;
-}
-
-location /profile {
-  rewrite ^/profile-update$ /profile-update.html break;
-}
-
-location /user {
-  rewrite ^/user-based-categories$ /user-based-categories.html break;
-}
-
-location = /rss {
-  rewrite ^(.*)$ /rss.html break;
-}
-
 location / {
+  rewrite ^/([^/]+)/breaking-news/([^/]+)$ /[langCode]/breaking-news/[slug].html break;
+  rewrite ^/([^/]+)/categories-news/([^/]+)$ /[langCode]/categories-news/[slug].html break;
+  rewrite ^/([^/]+)/tag/([^/]+)$ /[langCode]/tag/[slug].html break;
+  rewrite ^/([^/]+)/news/([^/]+)$ /[langCode]/news/[slug].html break;
+  rewrite ^/([^/]+)/video-news-view/([^/]+)$ /[langCode]/video-news-view/[slug].html break;
+  rewrite ^/([^/]+)/view-all/([^/]+)$ /[langCode]/view-all/[slug].html break;
+  rewrite ^/([^/]+)/all-breaking-news$ /[langCode]/all-breaking-news.html break;
+  rewrite ^/([^/]+)/all-categories$ /[langCode]/all-categories.html break;
+  rewrite ^/([^/]+)/bookmark$ /[langCode]/bookmark.html break;
+  rewrite ^/([^/]+)/create-news$ /[langCode]/create-news.html break;
+  rewrite ^/([^/]+)/edit-news$ /[langCode]/edit-news.html break;
+  rewrite ^/([^/]+)/index$ /[langCode]/index.html break;
+  rewrite ^/([^/]+)/live-news$ /[langCode]/live-news.html break;
+  rewrite ^/([^/]+)/loading$ /[langCode]/loading.html break;
+  rewrite ^/([^/]+)/manage-news$ /[langCode]/manage-news.html break;
+  rewrite ^/([^/]+)/more-pages$ /[langCode]/more-pages.html break;
+  rewrite ^/([^/]+)/news-notification$ /[langCode]/news-notification.html break;
+  rewrite ^/([^/]+)/personal-notification$ /[langCode]/personal-notification.html break;
+  rewrite ^/([^/]+)/profile-update$ /[langCode]/profile-update.html break;
+  rewrite ^/([^/]+)/user-based-categories$ /[langCode]/user-based-categories.html break;
+  rewrite ^/([^/]+)/rss$ /[langCode]/rss.html break;
   if (!-e $request_filename){
     rewrite ^(.*)$ /404.html break;
   }
