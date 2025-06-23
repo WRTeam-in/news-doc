@@ -80,7 +80,7 @@ npm install pm2 -g
 
 ## Deployment Process
 
-Refer to the [NextJS deployment](nextjsdeploy) section for detailed steps on how to:
+Refer to the [NextJS deployment](nextjsdeploy.md) section for detailed steps on how to:
 
 1. Set available ports
 2. Configure the server

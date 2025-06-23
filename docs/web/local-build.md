@@ -39,4 +39,4 @@ Watch our video tutorial for a step-by-step guide on local build and deployment:
 
 ## After Deployment
 
-After deploying using the local build method, don't forget to upload the `.htaccess` file to your server as explained in the [Upload .htaccess file](upload-htaccess) section.
+After deploying using the local build method, don't forget to upload the `.htaccess` file to your server as explained in the [Upload .htaccess file](upload-htaccess.md) section.

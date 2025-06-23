@@ -30,6 +30,6 @@ News Web Version is built with Next.js v14.0.3 so you need to setup your Local C
 
 For detailed configuration options, see the following sections:
 
-- [Setting API URL](domain-url)
-- [Integrating Firebase](integrate-firebase)
-- [Enabling Mobile Login](mobile-login)
+- [Setting API URL](domain-url.md)
+- [Integrating Firebase](integrate-firebase.md)
+- [Enabling Mobile Login](mobile-login.md)
