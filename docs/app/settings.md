@@ -26,6 +26,7 @@ To configure system settings for your News App:
 
    - **App Store App ID**: ID used when sharing app links
    - **Share App Text**: Text to be added when sharing news from the application
+   - **Video Type Preference**: Admin controls video layout for App – Normal or Page / Reels Type
 
    ![Settings Page 3](/images/app/settings3.png)
 
