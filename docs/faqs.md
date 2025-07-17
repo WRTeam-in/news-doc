@@ -40,7 +40,7 @@ Yes, the News App is designed to be extendable and customizable.
 <details>
 <summary><b>What are the server requirements for the Admin Panel?</b></summary>
 
-PHP Version >= 8.1 is required.
+PHP Version >= 8.2 is required.
 
 </details>
 

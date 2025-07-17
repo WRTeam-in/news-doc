@@ -19,7 +19,7 @@ sidebar_position: 1
 
 ### For Admin Panel
 
--  **PHP Version**: The Admin Panel is built using Laravel Framework 10.0, which requires a minimum PHP version of **8.1.0** or higher. 
+-  **PHP Version**: The Admin Panel is built using Laravel Framework 10.0, which requires a minimum PHP version of **8.2.0** or higher. 
 
 
 ---

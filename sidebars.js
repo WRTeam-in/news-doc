@@ -35,6 +35,7 @@ const sidebars = {
         "admin/manage-news-access",
         "admin/survey",
         "admin/staff-management",
+        "admin/general-settings",
         "admin/update-system",
       ],
     },
