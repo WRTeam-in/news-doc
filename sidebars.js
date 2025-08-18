@@ -100,6 +100,7 @@ const sidebars = {
         "web/change-loader-color",
         "web/change-meta-info",
         "web/add-gemini-api-key-in-web",
+        "web/update-footer-desc-as-per-lang",
         "web/favicon",
         "web/set-logo-theme-color",
         "web/set-social-media",

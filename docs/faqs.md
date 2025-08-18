@@ -64,3 +64,10 @@ Yes, you can enable location settings in the app and set a radius (in KM) to sho
 Yes, you can add multiple languages through the Admin Panel with flags, display names, and language JSON files.
 
 </details>
+
+<details>
+<summary><b>Why is my footer description not changing as per the language change?</b></summary>
+
+This issue occurs because the Gemini API key has not been added. The footer description changes according to the selected language using Gemini. Please add your Gemini API key first and then check again.
+
+</details>

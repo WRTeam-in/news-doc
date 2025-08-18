@@ -46,7 +46,7 @@ sidebar_position: 5
    1. Open your Firebase Project 
    2. Go you Authentication/settings/Authorized Domain 3. Click on Add Domain 4. One Popup will open add your domain name without http/https in that popup and click submit.
 
-   ![News](/images/web/firebase-integration.png)
+   ![News](/images/web/firebase-add-web-domain.png)
 
    **Congratulations. You have successfully connected your Web application to your firebase project. Now you are good to go ahead.** 
 
