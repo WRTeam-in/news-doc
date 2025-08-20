@@ -71,3 +71,19 @@ Yes, you can add multiple languages through the Admin Panel with flags, display 
 This issue occurs because the Gemini API key has not been added. The footer description changes according to the selected language using Gemini. Please add your Gemini API key first and then check again.
 
 </details>
+<details>
+<summary><b>I filled in the database details correctly, but I can’t move to the next Installation step. What should I do?</b></summary>
+
+If your host, database port, database name, username, password, and prefix are correct but the installer doesn’t proceed, make sure the PHP extension nd_pdo_mysql is enabled for the PHP version running your Admin Panel.
+</details>
+<details>
+<summary><b>I’m using cPanel. How can I enable nd_pdo_mysql there?</b></summary>
+
+1. Login to cPanel.
+
+2. Go to Select PHP Version / PHP Extensions.
+
+3. Select Your PHP Version & Enable nd_pdo_mysql by ticking the checkbox.
+
+4. Save and restart.
+</details>
