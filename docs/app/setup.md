@@ -4,6 +4,12 @@ sidebar_position: 1
 
 # How to setup Flutter
 
+import DocBanner from '@site/src/components/doc-banner/DocBanner';
+
+<DocBanner />
+
+##
+
 Explore the official Flutter website at [https://docs.flutter.dev/get-started/install](https://docs.flutter.dev/get-started/install) for a complete installation guide for your platform.
 
 Prefer video tutorials? Check out this [Playlist](https://youtu.be/I9ceqw5Ny-4?list=PLSzsOkUDsvdtl3Pw48-R8lcK2oYkk40cm)

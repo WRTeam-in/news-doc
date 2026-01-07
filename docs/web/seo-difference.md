@@ -4,6 +4,12 @@ sidebar_position: 1
 
 # Difference between SEO & without SEO web
 
+import DocBanner from '@site/src/components/doc-banner/DocBanner';
+
+<DocBanner />
+
+##
+
 ## With SEO
 
 1. You can add meta title, meta description, meta keywords for pages mentioned in admin -> system-settings -> seo-settings.

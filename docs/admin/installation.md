@@ -4,6 +4,12 @@ sidebar_position: 1
 
 # Configure on your server
 
+import DocBanner from '@site/src/components/doc-banner/DocBanner';
+
+<DocBanner />
+
+##
+
 ### For Web
 
   - If you don’t need SEO for the frontend site, **shared hosting** will be sufficient.

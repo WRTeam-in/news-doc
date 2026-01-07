@@ -4,6 +4,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import clsx from "clsx";
+import DocBanner from "../components/doc-banner/DocBanner.jsx";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -74,7 +75,7 @@ export default function Home() {
               <DocCard
                 title="Web"
                 description="Configure and deploy your News web application"
-                to="/docs/web/setup"
+                to="/docs/web/seo-difference"
                 icon="🌐"
               />
             </div>
@@ -100,6 +101,7 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <DocBanner />
         </section>
       </main>
     </Layout>

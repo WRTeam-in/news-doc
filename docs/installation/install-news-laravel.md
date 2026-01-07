@@ -4,6 +4,10 @@ sidebar_position: 3
 
 # Install Laravel News Admin panel
 
+import DocBanner from '@site/src/components/doc-banner/DocBanner';
+
+<DocBanner />
+
 ## Video Tutorials
 
 These video tutorials will help you understand how to set up Laravel News Admin panel:
