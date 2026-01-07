@@ -431,7 +431,7 @@ const DocBanner = () => {
 
             <div className={styles.bannerAction}>
                 <Link
-                    href="https://api.whatsapp.com/send?phone=919712445459&text=Hello%20Kishan,%20I%20want%20to%20know%20more%20about%20the%20installation%20service%20for%20{product_name}"
+                    href="https://api.whatsapp.com/send?phone=919712445459&text=Hello%20Kishan,%20I%20want%20to%20know%20more%20about%20the%20installation%20service%20for%20NEWS"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={styles.btnPrimary}
