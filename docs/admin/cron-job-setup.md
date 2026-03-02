@@ -35,7 +35,7 @@ wget -O /dev/null https://your-domain.com/schedule-run
 
 > **Example:**
 > ```bash
-> wget -O /dev/null https://dev-news.thewrteam.in/schedule-run
+> wget -O /dev/null https://news-admin.wrteam.me/schedule-run
 > ```
 
 #### Method 2: Using CURL (If WGET is not available)
@@ -43,6 +43,11 @@ wget -O /dev/null https://your-domain.com/schedule-run
 ```bash
 curl -s "https://your-domain.com/schedule-run" > /dev/null 2>&1
 ```
+> **Example:**
+> ```bash
+> curl -s "https://news-admin.wrteam.me/schedule-run" > /dev/null 2>&1
+> ```
+
 
 #### Method 3: Using PHP Command (If URL scheduler is not working)
 
@@ -52,7 +57,7 @@ cd /path/to/your/project && php artisan schedule:run
 
 > **Example:**
 > ```bash
-> cd /home/u863526903/domains/thewrteam.in/public_html/news && php artisan schedule:run
+> cd /home/u863526903/domains/wrteam.me/public_html/news && php artisan schedule:run
 > ```
 
 ---
