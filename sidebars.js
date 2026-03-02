@@ -23,6 +23,7 @@ const sidebars = {
       label: "News Admin Panel Setup",
       items: [
         "admin/installation",
+        "admin/cron-job-setup",
         "admin/notification-management",
         "admin/system-configurations",
         "admin/location-wise-news",
