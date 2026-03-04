@@ -87,3 +87,12 @@ If your host, database port, database name, username, password, and prefix are c
 
 4. Save and restart.
 </details>
+
+<details>
+<summary><b>The website is still showing wrteam icons ?</b></summary>
+
+1. Update public-folder icons -->> [Doc Step Here](/docs/web/update-public-folder-icons.md)
+
+2. Deploy your website again
+
+</details>

@@ -120,6 +120,7 @@ const sidebars = {
         "web/htaccess-file-code-forSeo",
         "web/get-gemini-api-key",
         "web/add-ads-txt-file",
+        "web/update-public-folder-icons",
       ],
     },
     "support",
