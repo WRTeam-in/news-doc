@@ -25,7 +25,7 @@ Access your server via SSH or through your Server Panel's Cron Jobs section.
 ### 2. Add Cron Job Command
 
 Choose one of the following methods based on your server configuration.  
-**Schedule frequency**: Set the cron to run every hour using `0 * * * *`.
+**Schedule frequency**: Set the cron to run every minute using `* * * * *`.
 
 #### Method 1: Using WGET (Recommended)
 
@@ -74,7 +74,7 @@ cd /path/to/your/project && php artisan schedule:run
 
 ### Cron Schedule Format
 
-`0 * * * *` runs the cron job at the start of every hour. Here is what each field means:
+`* * * * *` runs the cron job at the start of every minute. Here is what each field means:
 
 | Field        | Allowed Values          |
 |--------------|-------------------------|
@@ -88,7 +88,7 @@ cd /path/to/your/project && php artisan schedule:run
 
 - **wget / curl**: Command-line tools for transferring data with URLs.
 - **`-O /dev/null`** / **`> /dev/null 2>&1`**: Discards the output and suppresses error messages.
-- **Purpose**: This cron job runs every hour to process queues and other scheduled tasks in the application.
+- **Purpose**: This cron job runs every minute to process scheduled tasks in the application.
 
 ### Method Selection Guide
 
