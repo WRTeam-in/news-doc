@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.8.1">
 <title data-rh="true">Cron Job Setup | News App Documentation</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://wrteam-in.github.io/news-doc/images/logo.png"><meta data-rh="true" name="twitter:image" content="https://wrteam-in.github.io/news-doc/images/logo.png"><meta data-rh="true" property="og:url" content="https://wrteam-in.github.io/news-doc/docs/admin/cron-job-setup/"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Cron Job Setup | News App Documentation"><meta data-rh="true" name="description" content="Version Requirement: Cron job setup is only required for version 3.2.7 and above."><meta data-rh="true" property="og:description" content="Version Requirement: Cron job setup is only required for version 3.2.7 and above."><link data-rh="true" rel="icon" href="/news-doc/images/favicon.png"><link data-rh="true" rel="canonical" href="https://wrteam-in.github.io/news-doc/docs/admin/cron-job-setup/"><link data-rh="true" rel="alternate" href="https://wrteam-in.github.io/news-doc/docs/admin/cron-job-setup/" hreflang="en"><link data-rh="true" rel="alternate" href="https://wrteam-in.github.io/news-doc/docs/admin/cron-job-setup/" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Cron Job Setup","item":"https://wrteam-in.github.io/news-doc/docs/admin/cron-job-setup"}]}</script><link rel="stylesheet" href="/news-doc/assets/css/styles.19d7d887.css">
-<script src="/news-doc/assets/js/runtime~main.d84ee101.js" defer="defer"></script>
+<script src="/news-doc/assets/js/runtime~main.13b039c4.js" defer="defer"></script>
 <script src="/news-doc/assets/js/main.1ca926f4.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -29,7 +29,7 @@
 <p>Access your server via SSH or through your Server Panel&#x27;s Cron Jobs section.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-add-cron-job-command">2. Add Cron Job Command<a href="#2-add-cron-job-command" class="hash-link" aria-label="Direct link to 2. Add Cron Job Command" title="Direct link to 2. Add Cron Job Command">​</a></h3>
 <p>Choose one of the following methods based on your server configuration.<br>
-<strong>Schedule frequency</strong>: Set the cron to run every hour using <code>0 * * * *</code>.</p>
+<strong>Schedule frequency</strong>: Set the cron to run every minute using <code>* * * * *</code>.</p>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="method-1-using-wget-recommended">Method 1: Using WGET (Recommended)<a href="#method-1-using-wget-recommended" class="hash-link" aria-label="Direct link to Method 1: Using WGET (Recommended)" title="Direct link to Method 1: Using WGET (Recommended)">​</a></h4>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">wget -O /dev/null https://your-domain.com/schedule-run</span><br></span></code></pre></div></div>
 <blockquote>
@@ -58,13 +58,13 @@
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="understanding-the-cron-job">Understanding the Cron Job<a href="#understanding-the-cron-job" class="hash-link" aria-label="Direct link to Understanding the Cron Job" title="Direct link to Understanding the Cron Job">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="cron-schedule-format">Cron Schedule Format<a href="#cron-schedule-format" class="hash-link" aria-label="Direct link to Cron Schedule Format" title="Direct link to Cron Schedule Format">​</a></h3>
-<p><code>0 * * * *</code> runs the cron job at the start of every hour. Here is what each field means:</p>
+<p><code>* * * * *</code> runs the cron job at the start of every minute. Here is what each field means:</p>
 <table><thead><tr><th>Field</th><th>Allowed Values</th></tr></thead><tbody><tr><td>Minute</td><td>0–59</td></tr><tr><td>Hour</td><td>0–23</td></tr><tr><td>Day of Month</td><td>1–31</td></tr><tr><td>Month</td><td>1–12</td></tr><tr><td>Day of Week</td><td>0–7 (0 and 7 = Sunday)</td></tr></tbody></table>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="command-explanations">Command Explanations<a href="#command-explanations" class="hash-link" aria-label="Direct link to Command Explanations" title="Direct link to Command Explanations">​</a></h3>
 <ul>
 <li><strong>wget / curl</strong>: Command-line tools for transferring data with URLs.</li>
 <li><strong><code>-O /dev/null</code></strong> / <strong><code>&gt; /dev/null 2&gt;&amp;1</code></strong>: Discards the output and suppresses error messages.</li>
-<li><strong>Purpose</strong>: This cron job runs every hour to process queues and other scheduled tasks in the application.</li>
+<li><strong>Purpose</strong>: This cron job runs every minute to process scheduled tasks in the application.</li>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="method-selection-guide">Method Selection Guide<a href="#method-selection-guide" class="hash-link" aria-label="Direct link to Method Selection Guide" title="Direct link to Method Selection Guide">​</a></h3>
 <ul>
