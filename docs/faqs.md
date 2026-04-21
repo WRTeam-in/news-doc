@@ -96,3 +96,14 @@ If your host, database port, database name, username, password, and prefix are c
 2. Deploy your website again
 
 </details>
+<details>
+<summary><b>If your RSS source is active but no feeds are appearing on the web or app, it’s often related to the recent or latest of the content.?</b></summary>
+
+Only recently fetched items are displayed. If the crawled feed items are older than 7 days, they will not be shown on the web or in the app. This ensures that only up-to-date and relevant content is visible to users.
+
+To resolve this, make sure your RSS feed is publishing new content regularly. Once fresh items (within the last 7 days) are detected during crawling, they should start appearing as expected.
+
+You can also verify this by navigating to the Admin Panel → RSS Source menu. In the table, click on the “Crawled Feeds Count” column, where you can view the “Fetched At” date for each item.
+
+For version 3.2.8 and above.
+</details>
