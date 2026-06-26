@@ -6,9 +6,9 @@ sidebar_position: 22
 
 You can change the number of items that will be fetched at once when a request is sent to the server:
 
-1. Go to lib > utils > Constant.dart File
+1. Go to lib > core > configs > app_config.dart File
 
-2. Find the LOAD_ITEM_LIMIT variable and update its value:
+2. Find the limit like variables and update its value:
 
    ![Load Limit](/images/app/limit.png)
 

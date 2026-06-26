@@ -9,14 +9,14 @@ To customize the color scheme of your News App:
 1. Navigate to the colors definition file:
 
    ```
-   lib > ui > styles > colors.dart
+   lib > core > theme > theme_colors.dart
    ```
 
 2. In Flutter, color codes start with `0xff` followed by the hex color code. You can change the primary, secondary, and font colors as shown in the image below.
 
    ![App Colors](/images/app/appcolor.png)
 
-3. Additionally, you can set these colors in the appTheme.dart file according to Light and Dark Theme preferences.
+3. Additionally, you can set these colors in the `lib > core > theme > app_theme.dart` file according to Light and Dark Theme preferences.
 
    ![App Theme Colors](/images/app/appThemecolor.png)
 

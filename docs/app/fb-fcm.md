@@ -2,9 +2,11 @@
 sidebar_position: 13
 ---
 
-# Authenticate with Firebase Using Facebook Login
+# Authenticate with Firebase Using Facebook Login [If Applicable]
 
 To enable Facebook Login in your News App:
+
+You need to set bool value to true in `lib > core> configs > app_config.dart > const bool fblogInEnabled` , as it is false bydefault.
 
 ## Create a Facebook App
 

@@ -2,43 +2,19 @@
 sidebar_position: 16
 ---
 
-# How to Integrate Firebase Cloud Messaging in App?
+# Notification Settings
 
-Firebase Cloud Messaging (FCM) allows you to send push notifications to your app users.
+Configure push notifications across the admin panel, Firebase, Android, and iOS so users receive real-time updates from the app.
 
-## Integrating Firebase Cloud Messaging
+Please visit our [Notification Settings Documentation](https://wrteam-in.github.io/common_app_doc/GeneralSettings/notifications) and follow **every step in the order shown**.
 
-1. For Firebase Cloud Messaging Notification, first you have to register your application with Firebase
-2. [Create Firebase Project for Application](#create-fcm). If you already created firebase project then you don't have to do that again.
-3. Firebase dependency, service class and all necessary class are already included in project
-4. You don't have to do extra code here
-5. Just download **Google-service.json** and replace with existing File
+## What the Guide Covers
 
-## For iOS Push Notifications
+- **Admin Panel Settings > Firebase Configurations** — Adding the Firebase Project ID and uploading the Service Account JSON file.
+- **Firebase Configuration** — Cloud Messaging tab setup and selecting the iOS app.
+- **iOS App Settings** — Enabling Push Notifications + Background Modes capabilities, and uploading either the `.p8` token (recommended) or `.p12` certificate to Firebase.
+- **Android Setup** — Downloading and placing `google-services.json` in `android/app/`.
 
-### Key-based approach (.p8)
-
-1. Log in to the Apple Developer Portal
-2. Navigate to Certificates, IDs & Profiles > Keys
-3. Click the "+" button to add a new key
-4. Enter a name for the key and check the APNs checkbox
-5. Click Continue, then Download. Note that the key can only be downloaded once
-6. Then go to Firebase and add this .p8 file along with Your Key ID and Team ID
-
-![iOS Push Setup](/images/app/6.png)
-
-### Certificate-based approach (.p12)
-
-1. Log in to the Apple Developer Portal
-2. Navigate to Certificates, IDs & Profiles > Identifiers > App IDs and click the App ID associated with your app
-3. On the screen for your App ID, check Capabilities > Push Notifications
-4. Click Save and respond to the Modify App Capabilities dialog box that appears
-5. To create the certificate, we will use to communicate with Apple when sending push notifications
-6. In a new browser tab, follow Apple's [Create a certificate signing request instructions](https://help.apple.com/developer-account/#/devbfa00fef7)
-7. In the Apple Developer Portal, navigate back to your App ID
-8. Click Capabilities > Push Notifications > Configure
-9. Accept the default .p12 file format and click Save. Respond to the prompts, and enter a password for the file if necessary
-10. Keep track of this file, since you'll upload it to firebase in a later step
-
-![iOS Push Certificate 1](/images/app/7.png)
-![iOS Push Certificate 2](/images/app/8.png)
+:::tip
+The `.p8` token-based method is preferred over `.p12` certificates — tokens don't expire and a single key works for both development and production.
+:::

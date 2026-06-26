@@ -69,7 +69,7 @@ export default function Home() {
               <DocCard
                 title="Mobile App"
                 description="Customize and set up your News mobile application"
-                to="/docs/app/setup"
+                to="/docs/app/app-prerequisites"
                 icon="📱"
               />
               <DocCard
@@ -81,7 +81,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className={styles.gettingStarted}>
+        {/*    <section className={styles.gettingStarted}>
           <div className="container">
             <div className="row">
               <div className="col col--6 col--offset-3">
@@ -102,7 +102,7 @@ export default function Home() {
             </div>
           </div>
           <DocBanner />
-        </section>
+        </section> */}
       </main>
     </Layout>
   );

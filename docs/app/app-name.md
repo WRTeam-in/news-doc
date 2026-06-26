@@ -6,9 +6,9 @@ sidebar_position: 2
 
 To change the name of your News App, you need to update it in multiple places:
 
-## 1. Update in Constant.dart
+## 1. Update App Name in code
 
-Open `lib > utils > Constant.dart` and change the app name string as shown below:
+Open `lib > core> configs > app_config.dart` and change the app name string as shown below:
 
 ![App Name](/images/app/appname.png)
 

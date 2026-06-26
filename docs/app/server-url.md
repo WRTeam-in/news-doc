@@ -6,7 +6,7 @@ sidebar_position: 8
 
 To change the server URL in your News App:
 
-1. Go to `lib > utils > constant.dart`. Here you need to change your admin panel URL (baseUrl).
+1. Go to `lib > core> configs > app_config.dart`. Here you need to change your admin panel URL (baseUrl).
 
    ![Server URL](/images/app/serverurl.png)
 

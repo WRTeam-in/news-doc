@@ -33,8 +33,8 @@ import DocBanner from '@site/src/components/doc-banner/DocBanner';
 
 ### For App
 
-- **Flutter Version**: Flutter stable channel **3.27.4** sdk version. 
-- **Java Version**: Java Development Kit (JDK) version **23**.
+- **Flutter Version**: Flutter stable channel **3.44.x** sdk version. 
+- **Java Version**: Java Development Kit (JDK) version **21**.
 
 ---
 

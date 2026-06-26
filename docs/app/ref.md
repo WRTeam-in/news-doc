@@ -69,6 +69,5 @@ Here are some useful links and resources for developing and maintaining your New
 
 If you need further assistance with the News App, please contact:
 
-- Email: [support@example.com](mailto:support@example.com)
-- Website: [www.example.com](https://www.example.com)
-- GitHub Issues: [github.com/example/news-app/issues](https://github.com/example/news-app/issues)
+- Email: [Support@wrteam.in](mailto:Support@wrteam.in)
+- Website: [www.wrteam.in](https://www.wrteam.in)

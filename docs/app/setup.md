@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # How to setup Flutter
@@ -54,27 +54,17 @@ Add `[PATH_TO_FLUTTER_DIRECTORY]\flutter\bin` to your PATH environment variable.
 
 ## Project Setup
 
-1. Clone the News App repository:
-
-```bash
-git clone https://github.com/example/news-app.git
-```
-
-2. Navigate to the project directory:
-
-```bash
-cd news-app
-```
-
-3. Get the dependencies:
+1. Open News App Code:
+ 
+2. Get the dependencies:
 
 ```bash
 flutter pub get
 ```
 
-4. Update the configuration files as needed (details in other sections)
+3. Update the configuration files as needed (details in other sections)
 
-5. Run the app:
+4. Run the app:
 
 ```bash
 flutter run
