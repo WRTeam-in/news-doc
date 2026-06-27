@@ -6,7 +6,7 @@ sidebar_position: 15
 
 Update system with latest version by uploading zip file.
 
-![Update System](/images/panel/update_system.png)
+[![Update System](/images/panel/update_system.png)](/images/panel/update_system.png)
 
 Browse zip files from **Update** folder of Source code provided.
 

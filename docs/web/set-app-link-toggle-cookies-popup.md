@@ -2,7 +2,7 @@
 sidebar_position: 16
 ---
 
-# How to add Android and iOS App link and Toggle Cookies Pop-Up
+# How to Toggle Cookies Pop-Up
 
 
 1. Go to admin panel **system-settings -> web-settings**

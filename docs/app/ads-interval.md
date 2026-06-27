@@ -14,3 +14,4 @@ To Enable/Disable Facebook login, Interval for Survey Questions & Interval for A
 
 And for all other Options, Go to Admin Panel > System Setting > General Settings
  
+ ![General Settings](/images/app/generalSettings.png)

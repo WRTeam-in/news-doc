@@ -12,4 +12,4 @@ It is Compulsory to add Privacy Policy for App.
 
 (Create Privacy Policy page for your different activated language by select Page Type-'Privacy Policy')
 
-![Privacy Policy](/images/panel/pp.png)
+[![Privacy Policy](/images/panel/privacy-policy.png)](/images/panel/privacy-policy.png)

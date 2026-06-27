@@ -8,3 +8,4 @@ sidebar_position: 27
 
 2. Open Admin Panel > System Setting > General Settings and add as value for Google Gemini API Key. 
 
+   ![create-api-key-button](/images/web/add-gemini-key.png)

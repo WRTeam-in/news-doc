@@ -10,4 +10,4 @@ Set and manage your content for app. (Create different page for your different a
 You need to Set title in your desired Language here only, as it is not translated from App.
 :::
 
-![Pages](/images/panel/pages.png)
+[![Pages](/images/panel/custom-pages.png)](/images/panel/custom-pages.png)

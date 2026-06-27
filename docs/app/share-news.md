@@ -22,5 +22,9 @@ Follow Our [Deeplink Documentation](https://wrteam-in.github.io/common_app_doc/G
 # For Admin panel. 
 
 - **Admin Panel > System Setting > General Settings** — Adding Android & iOS app Links there. 
+
+ ![General Settings](/images/app/generalSettings.png)
+ 
 - **Admin Panel > System Setting > App Settings** — Add Share App Text there. 
  
+  ![app Settings](/images/app/appsettings.png)

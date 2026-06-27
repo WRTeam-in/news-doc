@@ -10,5 +10,5 @@ Please visit our [Unity Ads Settings Documentation](https://wrteam-in.github.io/
 ## What the Guide Covers
 
 - **Admin Panel Settings > System Setting > App Settings** — Adding Unity Rewarded Video Id, Unity Interstitial Id, Unity Banner Id & Unity Game Id there for Android & iOS App.
+ ![Unity Ads Admin Panel](/images/app/unityAdsAdminPanel.png)
 - There is no additional setting required for Android or iOS App.
- 

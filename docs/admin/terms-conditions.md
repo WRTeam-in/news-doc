@@ -12,4 +12,4 @@ It is Compulsory to add Terms Conditions for App.
 
 (Create Terms Conditions page for your different activated language by select Page Type-'Terms & Conditions')
 
-![Terms Conditions](/images/panel/tc.png)
+[![Terms Conditions](/images/panel/tc.png)](/images/panel/tc.png)

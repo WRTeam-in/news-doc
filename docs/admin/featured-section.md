@@ -10,4 +10,4 @@ Set featured section for all active languages.
 If you haven't set a featured section for a particular language, the frontend will have a blank homepage (app+web).
 :::
 
-![Featured Sections](/images/panel/featured_sections.png)
+[![Featured Sections](/images/panel/featured-section.png)](/images/panel/featured-section.png)

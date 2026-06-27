@@ -6,4 +6,4 @@ sidebar_position: 5
 
 Set Language for your website and app.
 
-![Language](/images/panel/language_dynamic.png)
+[![Language](/images/panel/create-manage-language.png)](/images/panel/create-manage-language.png)

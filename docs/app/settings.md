@@ -8,7 +8,9 @@ To configure system settings for your News App:
 
 1. First login to your admin panel.
 
-2. Navigate to Settings > System Setting > General Settings
+2. Navigate to  System Setting > General Settings
+
+![Settings Page 1](/images/app/settings1.png)
 
 3. Here you can configure various options for your app:
 
@@ -18,7 +20,6 @@ To configure system settings for your News App:
    - **Live Streaming News Mode**: Enable and disable live news display in the application
    - **Comments Mode**: Enable and disable comments functionality in the application
 
-   ![Settings Page 1](/images/app/settings1.png)
 
    ![Settings Page 2](/images/app/settings2.png)
 
