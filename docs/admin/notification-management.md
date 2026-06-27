@@ -8,7 +8,7 @@ First of all, we need to Download Private key json file from **Service Accounts*
 
 [![Notification Setting 1](/images/panel/notification-setting-1.png)](/images/panel/notification-setting-1.png)
 
-Also find the Project ID from firebase general tab and add it in the Project ID field
+Also find the **Project ID** from firebase general tab and add it in the **Project ID** field
 
 [![firebase Project ID](/images/panel/firebase-projectID.png)](/images/panel/firebase-projectID.png)
 
