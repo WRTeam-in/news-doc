@@ -123,6 +123,7 @@ const sidebars = {
         "web/get-gemini-api-key",
         "web/add-ads-txt-file",
         "web/update-public-folder-icons",
+        "web/seo-deployment-deploy-file",
       ],
     },
     "support",

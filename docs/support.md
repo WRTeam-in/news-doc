@@ -2,9 +2,9 @@
 sidebar_position: 5
 ---
 
-# Support
+# Support & Help Center
 
-If you need assistance with any aspect of the News App ecosystem, our support team is here to help.
+We're committed to helping you get the most out of your news platform. Whether you're setting up your first project or need help with advanced features, our support team is here to assist you.
 
 ## How to Get Support
 
@@ -12,11 +12,97 @@ It's our pleasure to serve our service and support. Please contact our support t
 
 **Head of Customer Support:** [Devanshi Gor](https://teams.live.com/l/invite/FEAcaChT-fEjZkImQE)
 
-To help our customers, we constantly stay in touch with every customer if they need any assistance regarding our product. We offer our customers support from **Monday – Friday, 9:00am to 6:00pm IST (GMT +5:30)** – We are a team located in India.
+### 1. Documentation
 
-Typically we reply to our customers for all questions and queries within 24 hours via comments, support forum, or emails.
+Before contacting support, please check our comprehensive documentation. You can find detailed guides on:
 
-## Support Channels
+- Installation and setup
+- Feature usage
+- Configuration
+- Troubleshooting
+- Best practices
 
-- Email: Support@wrteam.in
-- Support Portal: [WRTeam](https://wrteam.in)
+### 2. Contact Support
+
+If you need additional help, our dedicated support team is available through multiple channels:
+
+#### Admin Panel Support
+
+- **Contact**: Meet Bhalodiya
+- **Platform**: [Microsoft Teams](https://teams.live.com/l/invite/FEAwZ9xXVOMiEuNZQ4?v=g1)
+- **Scope**: Admin panel setup, configuration, and management
+
+#### Web Application Support
+
+- **Contact**: Shahid Jagora
+- **Platform**: [Microsoft Teams](https://teams.live.com/l/invite/FEAwTt_XHAn2sBMWAE)
+- **Scope**: Web application setup, and issues
+
+#### Mobile App Support
+
+- **Contact**: Devanshi Gor
+- **Platform**: [Microsoft Teams](https://teams.live.com/l/invite/FEAcaChT-fEjZkImQE)
+- **Scope**: Mobile app setup, features, and troubleshooting
+
+#### Email Support
+
+- **Email**: support@wrteam.in
+- **Response Time**: Within 24 hours
+- **Scope**: General inquiries and non-urgent issues
+
+## Support Hours
+
+Our support team is available:
+
+- **Days**: Monday through Friday
+- **Hours**: 9:00 AM to 6:00 PM IST (GMT +5:30)
+- **Location**: 🇮🇳 India (Asia)
+
+## For Effective Support
+
+To help us assist you more effectively, please include:
+
+1. **Purchase Information**
+
+   - Your purchase code (find your purchase code from this [guide](https://help.market.envato.com/hc/en-us/articles/202822600-Where-Is-My-Purchase-Code) )
+   - Product version
+   - Platform (Web/Mobile)
+
+2. **Issue Details**
+
+   - Clear description of the problem
+   - Steps to reproduce
+   - Expected vs. actual behavior
+
+3. **Supporting Materials**
+   - Screenshots
+   - Error messages
+   - Video recordings (if applicable)
+   - Log files (if available)
+
+If you can't find what you're looking for, our support team is just a message away. We typically respond to all inquiries within 24 hours through your preferred contact method.
+
+
+## Your Feedback
+
+**Dear Valued Customer,**  
+Thank you for choosing our product! 🙏  
+We strive to provide top-notch services and would love to hear your feedback.  
+
+**Help us improve!** Click [**here**](https://codecanyon.net/downloads) to rate us. ⭐⭐⭐⭐⭐  
+
+Your honest feedback helps us build a **stronger, more reliable product.**  
+Thank you for your support!  
+
+
+
+## Rating  
+
+If you like our app, we would **highly appreciate** a **5-star rating**!  
+
+ **How to Rate Us?**  
+Go to **CodeCanyon > Menu > Download Page** and leave your review.  
+
+
+
+🎉 **Thank you for your support!** 🚀

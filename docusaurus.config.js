@@ -11,7 +11,7 @@ const config = {
   url: "https://wrteam-in.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   baseUrl: "/news-doc/",
-  trailingSlash: true, 
+  trailingSlash: true,
   // GitHub pages deployment config
   organizationName: "WRTeam-in",
   projectName: "news-doc",
@@ -61,10 +61,29 @@ const config = {
         },
         items: [
           {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
+            to: "/docs/admin/installation",
+            label: "Admin Panel",
             position: "left",
-            label: "Documentation",
+          },
+          {
+            to: "/docs/app/setup",
+            label: "Mobile App",
+            position: "left",
+          },
+          {
+            to: "/docs/web/setup",
+            label: "Web Portal",
+            position: "left",
+          },
+          {
+            to: "/docs/support",
+            label: "Support",
+            position: "left",
+          },
+          {
+            to: "/docs/faqs",
+            label: "FAQs",
+            position: "left",
           },
           {
             type: "search",
