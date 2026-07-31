@@ -2,7 +2,7 @@
 sidebar_position: 13
 ---
 
-# NextJS Deployment
+# Server SEO Deployment Manually
 
 ## Port Configuration
 

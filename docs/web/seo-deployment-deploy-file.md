@@ -2,7 +2,7 @@
 sidebar_position: 11
 ---
 
-# Server Deployment with deploy.sh file for seo-deployment only 
+# Server Auto Deployment with deploy.sh file for seo-deployment only 
 
 This guide explains how to deploy your web application with SEO support using Next.js on a VPS server.
 
