@@ -10,7 +10,7 @@ We're committed to helping you get the most out of your news platform. Whether y
 
 It's our pleasure to serve our service and support. Please contact our support team.
 
-**Head of Customer Support:** [Devanshi Gor](https://teams.live.com/l/invite/FEAcaChT-fEjZkImQE)
+**Head of Customer Support:** [Shahid Jagora](https://teams.live.com/l/invite/FEAwTt_XHAn2sBMWAE)
 
 ### 1. Documentation
 
