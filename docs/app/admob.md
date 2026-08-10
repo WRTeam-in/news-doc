@@ -4,7 +4,7 @@ sidebar_position: 18
 
 # Set up admob in App
 
-Please visit our [Admob Ads Settings Documentation](https://wrteam-in.github.io/common_app_doc/GeneralSettings/advertisement/google-admob) and follow every step in the order shown.
+Please visit our [Admob Ads Settings Documentation](https://www.marketplace.wrteam.in/docs/flutter-common-doc/GeneralSettings/advertisement/google-admob) and follow every step in the order shown.
 
 
 ## What the Guide Covers

@@ -4,7 +4,7 @@ sidebar_position: 20
 
 # Set up Unity Ads in App
 
-Please visit our [Unity Ads Settings Documentation](https://wrteam-in.github.io/common_app_doc/GeneralSettings/advertisement/unity-ads) and follow every step in the order shown.
+Please visit our [Unity Ads Settings Documentation](https://www.marketplace.wrteam.in/docs/flutter-common-doc/GeneralSettings/advertisement/unity-ads) and follow every step in the order shown.
 
 
 ## What the Guide Covers

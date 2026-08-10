@@ -6,7 +6,7 @@ sidebar_position: 17
 
 Deep links allow users to share news articles and open them directly in the app.
  
-Follow Our [Deeplink Documentation](https://wrteam-in.github.io/common_app_doc/GeneralSettings/deeplink/app-deeplink) for deeplink integration in App.
+Follow Our [Deeplink Documentation](https://www.marketplace.wrteam.in/docs/flutter-common-doc/GeneralSettings/deeplink/app-deeplink) for deeplink integration in App.
 
 # What the Guide Covers
 

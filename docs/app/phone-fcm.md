@@ -14,7 +14,7 @@ To enable phone authentication (OTP) in your News App:
 
 ## Configure Firebase
 
-1. **NOTE:** You need to enable Blaze Plan From Firebase for this - Refer this [video](https://youtu.be/RuJuBCYjmhc?si=ViacX7vz9ZQH3LOi) or our guide [Upgrading the Firebase project from Spark to Blaze](https://wrteam-in.github.io/common_app_doc/GeneralSettings/firebase-billing/#-upgrade-from-the-firebase-spark-plan-to-the-blaze-plan)
+1. **NOTE:** You need to enable Blaze Plan From Firebase for this - Refer this [video](https://youtu.be/RuJuBCYjmhc?si=ViacX7vz9ZQH3LOi) or our guide [Upgrading the Firebase project from Spark to Blaze](https://www.marketplace.wrteam.in/docs/flutter-common-doc/GeneralSettings/firebase-billing/#-upgrade-from-the-firebase-spark-plan-to-the-blaze-plan)
 2. Open your Firebase console
 3. Go to Authentication and open Sign-in method
 4. Enable Phone Sign-in method and save
