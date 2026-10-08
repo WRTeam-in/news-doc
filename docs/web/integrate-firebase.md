@@ -18,11 +18,9 @@ sidebar_position: 5
 
    ![News](/images/web/firebase3.png)
 
-4. And paste this your Credentials in **.env** and **public/firebase-messaging-sw.js** File.
+4. And paste this your Credentials in **.env** File.
 
    ![News](/images/web/notification.png)
-
-   ![News](/images/web/firebase4.png)
 
 5. Open firebase account go to project settings -> cloud messaging -> Web configuration and select key and paste in .env file
 
