@@ -94,4 +94,4 @@ After that, run the deployment script again:
 
 7. **Need more details?**
 
-- For the full SEO (VPS) deployment flow, see: [Next.js Deployment](./server-deployment.md)
+- For the full SEO (VPS) deployment flow, see: [Next.js Deployment](./seo-deployment-deploy-file.md#deployment-system-details)

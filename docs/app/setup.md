@@ -74,6 +74,6 @@ flutter run
 
 After setting up Flutter, you may want to:
 
-- [Change the app name](app-name)
-- [Customize the app logo](app-logo)
-- [Configure server URL](server-url)
+- [Change the app name](app-name.md)
+- [Customize the app logo](app-logo.md)
+- [Configure server URL](server-url.md)
