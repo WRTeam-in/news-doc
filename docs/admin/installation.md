@@ -25,7 +25,7 @@ import DocBanner from '@site/src/components/doc-banner/DocBanner';
 
 ### For Admin Panel
 
--  **PHP Version**: The Admin Panel is built using Laravel Framework 10.0, which requires a minimum PHP version of **8.2.0** or higher. 
+-  **PHP Version**: The Admin Panel is built using Laravel Framework 10.0, which requires a minimum PHP version of **8.5.0** or higher. 
 -  **PHP Extension**: **nd_pdo_mysql**, **bstring**, **fileinfo**, **openssl**, **tokenizer**, **json**, **curl** . 
 
 
